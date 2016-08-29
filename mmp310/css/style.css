@@ -1,0 +1,45 @@
+@charset "utf-8"
+    
+    *,*:before,*:after {
+        
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+    }
+
+header { 
+    background:url(../images/treadmill.gif) no-repeat center center;
+    background-size: 100%;
+    height: 800px;
+    color: red;
+
+}
+
+h1 { 
+    color: red;
+    font-family: monospace;
+    text-align: center;
+    margin-top: -30%;
+    font-size: 50px;
+}
+
+h2 {
+    
+    color: red;
+}
+p{
+    position: relative;
+    float:left;}
+
+
+.words#welcome {
+    margin-top:5%;
+    font-family: monospace;
+}
+
+.words#sideNote{
+    font-family:monospace;
+    margin-bottom: 5%;
+}
+
+img{max-width:15%;}
