@@ -1,0 +1,64 @@
+@charset "utf-8"
+/*the asterisk is the universal selector which selects every element*/
+
+*,*:before,*:after {
+    margin:0px; 
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+
+#container {  
+             width: 95%; 
+             background-color: #000; 
+             position: relative; 
+             margin-right: auto; 
+             margin-left: auto; 
+             margin-top: 10%;
+}
+
+/*form start*/
+
+#reserve {
+    font-size:1.5em;
+    font-family:arial,  helvetica;
+}
+
+
+
+label {
+    font-family:'Geometria';
+    font-size:1rem;
+}
+ #lname{
+     margin-left:3px;
+ }
+
+ #email {
+     margin-left:33px;
+ }
+
+fieldset{ 
+    width:91%;
+    font-family: arial,  helvetica;
+    text-align: left;
+    color: #000;
+    padding:10px;
+    border: 10px solid black;
+    margin-bottom:20px;
+    background-color: #EF1010;
+}
+
+legend { 
+    padding-top: 10px;
+}
+
+p{color:#fff;}
+
+/*form end*/
+
+
+
+
+
